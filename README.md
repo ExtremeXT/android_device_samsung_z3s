@@ -23,5 +23,5 @@ git clone -b android-12.1 https://github.com/ExtremeXT/pbrp_android_device_samsu
 ```
 3. To build:
 ```bash
-. build/envsetup.sh && lunch pbrp_z3s-eng && mka recoveryimage -j$(nproc —all)
+. build/envsetup.sh && lunch pbrp_z3s-eng && mka pbrp -j$(nproc —all)
 ```
